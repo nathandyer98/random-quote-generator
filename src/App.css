@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=family=Tajawal&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #09090A;
+  }
+  
+  
+  
+  #quote-box {
+    font-family: "Tajawal", sans-serif;
+    background-color: #515151;
+    color: #ffffff;
+    padding: 40px 50px;
+    border-radius: 10px;
+    box-shadow: 10px 15px 5px rgba(228, 228, 228, 0.1);
+    text-align: center;
+    width: 450px;
+    display: table;
+    
+  }
+  
+  #text { 
+    font-size: 24px;
+    font-weight: 400;
+    word-spacing: 25%;
+    margin-bottom: 10px;
+  }
+  
+  #author {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  #new-quote {
+    padding: 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  #left-quote{
+    margin-right: 20;
+  }
+
+  #right-quote{
+    margin-left: 20;
+  }
+
+  #tweet-quote{
+    background-color: #1DA1f2;
+    size: 10px;
+  }
+
+  .button-container{
+    display: flex;
+    justify-content:space-between;
+  }
+
+  button, a{
+    border-radius: 10px;
+    border: 1px solid transparent;
+    padding: 10px 12px;
+    width: fit-content;
+    transition: all 0.2s ease 0s;
+  }
+
+  button:hover, a:hover{
+    opacity: 0.75;
+  }
